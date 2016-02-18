@@ -1,0 +1,19 @@
+<html>
+<head>
+	<title>Exercice</title>
+</head>
+<body>
+	<form method="get" action="page2.php">
+		<p>Nom: <input type="text" name="nom"/></p>
+		<p>Note: <input type="text" name="note"/></p>
+		<p><input type="submit" value="OK"/></p>
+
+	</form>
+
+	<p>
+		<?php
+			print_r($_SESSION);
+		?>
+	</p>
+</body>
+</html>
